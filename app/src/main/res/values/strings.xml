@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IT Dictionary</string>
+    <string name="codial_dictionary">Codial Dictionary</string>
+    <string name="search">Search:</string>
+</resources>

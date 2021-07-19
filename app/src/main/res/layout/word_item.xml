@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/size_12dp"
+    android:layout_marginBottom="@dimen/size_10dp"
+    android:backgroundTint="@color/gray"
+    android:padding="@dimen/size_20dp">
+
+    <TextView
+        android:id="@+id/txt_wordName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_18sp"
+        android:text="Abandonment"
+        android:layout_margin="@dimen/size_20dp"/>
+
+</com.google.android.material.card.MaterialCardView>
