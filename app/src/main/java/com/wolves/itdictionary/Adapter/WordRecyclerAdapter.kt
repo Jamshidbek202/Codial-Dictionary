@@ -17,6 +17,7 @@ class WordRecyclerAdapter(var context: Context, var list: ArrayList<WordModel>) 
     inner class MyViewHolder (val itemView : View) : RecyclerView.ViewHolder(itemView){
         fun onBind(model: WordModel, position: Int){
             itemView.txt_wordName.text = list[position].wordEng
+            itemView.txt_number.text = (position+1).toString()
 
             itemView.setOnClickListener{
                 val intent = Intent(context, ShowActivity::class.java)
